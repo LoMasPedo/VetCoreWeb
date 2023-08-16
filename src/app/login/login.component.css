@@ -1,4 +1,18 @@
 
+body {
+  background: #76b852; /* fallback for old browsers */
+  background: rgb(141,194,111);
+  background: linear-gradient(100deg, rgba(141,194,111,1) 50%, rgba(118,184,82,1) 50%);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Altura igual al 100% del viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .login-page {
   width: 360px;
   padding: 8% 0 0;
@@ -59,9 +73,6 @@ img {
 .form .message a {
   color: #4CAF50;
   text-decoration: none;
-}
-.form .register-form {
-  display: none;
 }
 .container {
   position: relative;
